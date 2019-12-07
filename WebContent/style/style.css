@@ -1,1 +1,92 @@
-/* Add styles for application here */
+body{
+	height: 100%;
+	font-family: sans-serif;
+}
+header{
+	background-color: #3258a8;
+	height: 90px;
+	font-size: 25pt;
+	color: white;
+}
+footer{
+	background-color: #a3a5a8;
+	height: 90px;
+	font-size: 25pt;
+}
+div{
+	height: 750px;
+}
+#menu{
+	float: right;
+	margin-right: 30px;
+	margin-top: 20px;
+    color: white;
+	font-size:25pt;
+}
+img{
+	height: 50px;
+	width: 50px;
+	margin-left:30px;
+}
+.title{
+	text-align: left;
+}
+.box{
+     text-align: left;
+}
+.active{
+	text-align: center;
+}
+.date{
+	text-align: center;
+
+}
+.teaser{
+	text-align: center;
+}
+.gen{
+	text-align: center;
+}
+.link{
+	text-align: center;
+	color: #03000d;
+}
+.cont{
+	margin-left: 350px;
+	font-size: 15pt;
+	padding: 30px;
+	width: 950px;
+}
+#pvr3{
+	color: #010812;
+}
+#pvr4{
+	color: #2f74ba;
+}
+#pvr1{
+	background-color: #2f41bd;
+	font-size: 15pt;
+}
+#pvr2{
+	color: #07a333;
+	margin-left: 350px;
+	font-size: 15pt;
+	padding: 30px;
+	width: 800px;
+}
+.succ{
+   margin-left: 550px;
+   color: #07a333;
+}
+a{
+	color: #03000d;
+}
+.cart{
+	margin-left: 320px;
+    padding: 50px;
+	font-size: 20pt;
+}
+#pvrn{
+	margin-left: 375px;
+	margin-top:50;
+}

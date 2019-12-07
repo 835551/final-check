@@ -1,0 +1,59 @@
+<!doctype html>
+<html> 
+  <head>
+     <title>edit movie</title>
+	 <link rel="stylesheet" type="text/css" href="./style/style.css"/>
+	 <script  src="./js/script.js" type="text/javascript"></script>
+  </head>
+  <body>
+     <header>
+       <span id ="head">Movie Cruiser </span>
+	   <img src="./images/logo.png">
+	   <a id="menu" href="./movie-list-admin.html"> Movies </a>
+     </header>
+	  <div>
+	    <h3 class="cont">Movies</h3>
+	  <form name="Form" method="post" action="./edit-movie-status.html"	 onsubmit="return validation()">
+	  <table class="cont">
+	      <tr>
+		       <td>Title</td>
+	      </tr>
+		  <tr>
+		       <td><input type="text" name="game"  value="Avengers-End Game" /></td>
+		  </tr>
+		  <tr>
+		      <td>Gross($)</td>
+		      <td>Active</td>
+		      <td>Date Of Launch</td>
+		      <td>Genre</td>
+		  </tr>
+		  <tr>
+		      <td><input type="text" name="price" value="2787965087" /></td>
+		      <td>
+		          <input type="radio" name="active" value="yes" checked />Yes 
+				  <input type="radio" name="active" value="yes" />No
+		       </td>
+			   <td><input type="text" name="dol" value="27/04/2022" /></td>
+		       <td>
+		            <select>
+	                  <option>Science Fiction</option>
+				      <option selected>Superhero</option>
+					  <option>Romance</option>
+					  <option>Comedy</option>
+					  <option>Adventure</option>
+					  <option>Thriller</option>
+					</select>
+			   </td>
+		  </tr>
+		  <tr> 
+		       <td><input type="checkbox" name="ch" checked />Has Teaser</td>
+		  </tr>
+		  <tr>
+		       <td> <input type="submit"  value="save" id="pvr1"></td>
+		   </tr>
+	     </table>
+		 </form>
+	 </div>
+	   <footer>Copyright @ 2019</footer>
+  </body>
+</html>
