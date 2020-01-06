@@ -19,8 +19,8 @@ public class FavoriteDaoCollectionImplTest {
 		long totalGross = 0l;
 		favoriteDao.addFavorite(1, 2l);
 		favoriteDao.addFavorite(1, 5l);
-		favoriteDao.addFavorite(2, 1l);
-		favoriteDao.addFavorite(3, 4l);
+		favoriteDao.addFavorite(1, 1l);
+		favoriteDao.addFavorite(1, 4l);
 		List<Movie> movieListCustomer = favoriteDao.getAllFavorite(1);
 		System.out.println("User added favorite");
 		for (Movie movies : movieListCustomer) {

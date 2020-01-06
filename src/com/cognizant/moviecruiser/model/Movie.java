@@ -110,8 +110,8 @@ public class Movie {
 
 	public String toString() {
 
-		String details = String.format("%-20s $%10s %-5s %-10s %-20s %-5s Edit", title, boxOffice, active? "Yes":"No", DateUtil.convertToString(dateOfLaunch),
-				genre, hasTeaser? "Yes":"No");
+		String details = String.format("%-20s $%10s %-5s %-10s %-20s %-5s Edit", title, boxOffice,
+				active ? "Yes" : "No", DateUtil.convertToString(dateOfLaunch), genre, hasTeaser ? "Yes" : "No");
 		return details;
 	}
 

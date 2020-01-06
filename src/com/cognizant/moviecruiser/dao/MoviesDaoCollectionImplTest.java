@@ -8,7 +8,9 @@ import com.cognizant.moviecruiser.util.DateUtil;
 
 public class MoviesDaoCollectionImplTest {
 	public static void main(String args[]) throws ParseException {
+		System.out.println("Admin movie list");
 		testMovieListAdmin();
+		System.out.println("Customer movie list");
 		testMovieListCustomer();
 		testModifyMovie();
 		System.out.println("After modifying the movie");

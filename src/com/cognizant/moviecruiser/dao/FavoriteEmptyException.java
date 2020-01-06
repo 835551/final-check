@@ -1,6 +1,6 @@
 package com.cognizant.moviecruiser.dao;
 
-public class FavoriteEmptyException extends  Exception {
+public class FavoriteEmptyException extends Exception {
 
 	public FavoriteEmptyException() {
 		super();
@@ -12,5 +12,4 @@ public class FavoriteEmptyException extends  Exception {
 		// TODO Auto-generated constructor stub
 	}
 
-	
 }
